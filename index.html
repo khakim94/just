@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger King</title>
+</head>
+<body>
+    <div class="container">
+        <div class="inner">
+            <h1 style="text-align: center;justify-content: center; display: inline;margin-left: 90px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Добро пожаловать</h1>
+            <h2 style="margin-left: -150px;margin-top: 200px; font-size: 33px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Меню</h2>
+            <div class="kombo" style="margin-left: -10px;">
+                <img style="height: 180px;width:180px;margin-top: 40px;margin-left: 20px;" src="kombo.png" alt="Kombo">
+                <div style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;margin-left: 65px;margin-top: -60px;">
+                    <h2>Комбо</h2>
+                    <h3 style="margin-left: 15px;">2900</h3>
+                    <button>Оформить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-size: 18px;
+            color: var(--tg-theme-text-color);
+            background: var(--th-theme-bg-color);
+        }
+        .container {
+            max-width: 390px;
+        }
+        .inner{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 200px 200px 200px;
+        }
+    </style>
+</body>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<script src="app.js"></script>
+</html>
